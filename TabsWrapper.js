@@ -91,6 +91,7 @@ export default class TabsWrapper {
          * 
          * @param {String} typeName type of tabs to set
          * @param {String} containerClassName CSS class name of tabs container to set
+         * @returns {Tabs} builded Tabs
          */
         this.buildTabs = function(typeName, containerClassName) {
             checkProperty(typeName, 'typeName');
