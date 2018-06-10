@@ -9,7 +9,6 @@ Example template:
 <html>
 	<head>
         <meta charset='utf-8'>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self';">
 		<link type='text/css' rel='stylesheet' href='Tabs.css'/>
         <script type='module' src='TabsWrapper.js'></script>
         <script type='module' src='TabsBuilder.js'></script>
